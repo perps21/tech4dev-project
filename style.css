@@ -49,8 +49,8 @@ span{
     color: blue;
     font-size: 20px;
     font-weight: 700;
-    border-radius: 5px;
-    border: 2px solid #000;
+    border-radius: 10px;
+    border: 2px solid blue;
     background-color: #fff;
 }
 
@@ -90,7 +90,7 @@ img {
 
 .caption {
     position: absolute;
-    top: 80%;
+    top: 60%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
