@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* CSS for the navigation bar */
+nav {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    height: 60px;
+    display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    
+    
+}
+
+nav ul li {
+    display:inline; ;
+    margin:  10px;
+    padding: 80px;
+    font-size: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+span{
+    color:blue;
+}
+
+#joinus{
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+/* Styling for the "Home" section with a background image */
+/* #home {
+    text-align: center;
+   padding: 100px 0; 
+    background-image: url('images/back.jpg'); /* Replace 'your-image-file.jpg' with your actual image file */
+    /* background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #fff; 
+} */ */
+
+p {
+margin-top: 150px;
+font-size: 40px;
+font-weight: 700;
+
+}
+
+/* Styling for the slideshow and slides */
+.slideshow-container {
+    position: relative;
+    background-color: #000; /* Set a background color for the slideshow container */
+    overflow: hidden;
+}
+
+.fade {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    font-size: 100PX;
+}
+
+
+
+
+/* Rest of your CSS */
+
+
