@@ -8,7 +8,7 @@ body{
 
 /* CSS for the navigation bar */
 nav {
-    background-color: #fff;
+    background-color: #adb2d3;
     color: #000;
     text-align: center;
     height: 60px;
@@ -36,23 +36,23 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color:blue;
+    color:#000;
     font-weight: bold;
 }
 span{
-    color:blue;
+    color:#f3ca40;
 }
 
 #joinus{
     height: 40px;
     padding: 10px;
     margin-top: 10px;
-    color: blue;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
-    border: 2px solid blue;
-    background-color: #fff;
+border: #f3ca40;
+    background-color: #f3ca40;
 }
 
 /* Styling for the "Home" section with a background image */
@@ -96,21 +96,25 @@ img {
     right: 0;
     transform: translateY(-50%);
     background-color: transparent;
-    color: blue;
-    padding: 10px;
+    color: #f3ca40;
+    padding: 20px;
     text-align: center;
     font-size: 100PX;
 }
 
 .sec-about{
     width: 100%;
-    background-color: rgb(198, 237, 237);
-    height: 700px;
+    background-color: #f6f2f8;
+    height: 100vh;
     margin-top: -30px; 
     text-align: center;
     padding: 10px;
     font-size: 24px;
     
+}
+.sec-about h1{
+    color: #f3ca40;
+    font-weight: 700px;
 }
 .sec-about p {
 text-align: left;
@@ -121,7 +125,7 @@ padding: 0px 10px;
 #about{
     display: flex;
     width: 100%;
-    background-color: rgb(29, 226, 226);
+    background-color: none;
     height: 700px;
     margin-top: -10px;
 }
@@ -131,16 +135,19 @@ padding: 0px 10px;
     width: 30%;
     margin-left: 30px; 
     margin-right: 30px;
-    background-color: blanchedalmond;
+    background-color: #c7b6ce;
     height: 500px;
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
     padding: 20px 20px 20px;
     border-radius: 10px;
+    border: 2px solid #000;
+    font-weight: 700;
 }
 .about p{
         font-size: 20px;
+        font-weight: 200;
 }
 
 /* Rest of your CSS */
